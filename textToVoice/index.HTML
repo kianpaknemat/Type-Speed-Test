@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text to Speech</title>
+    <link rel="stylesheet" href="/textToVoice/style.css">
+        <style>
+        body { font-family: Arial, sans-serif; text-align: center; padding: 20px; }
+        textarea { width: 80%; height: 100px; margin-bottom: 10px; }
+        button { padding: 10px 20px; margin: 5px; cursor: pointer; }
+    </style>
+</head
+<body>
+    <header class="masthead"><h2>تبدیل متن به گفتار</h2> </header>
+    
+    <h4>در کادر زیر متنی وارد کنید و سپس صدا را انتخاب کنید و بر روی دکمه ی پخش ضربه بزنید تا صدا پخش بشه.</h4>
+    <textarea id="textInput" placeholder="متن خود را وارد کنید..."></textarea> <br>
+    <select id="voiceSelect"></select> <br>
+    <button id="speakBtn">پخش</button>
+    <button id="pauseBtn">مکث</button>
+    <button id="resumeBtn">ادامه</button>
+    <button id="stopBtn">توقف</button>
+    
+    <script src="script.js"></script>
+</body>
+</html>

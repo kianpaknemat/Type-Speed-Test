@@ -1,0 +1,18 @@
+#pauseBtn, #speakBtn, #resumeBtn, #stopBtn{
+    background-color: white;
+    color: black;
+    border-color: black;
+}
+#pauseBtn:hover, #speakBtn:hover, #resumeBtn:hover, #stopBtn:hover{
+    background-color: black;
+    color: white;
+    border-color: black;
+}
+.masthead{
+    background-color: blueviolet;
+    padding: 2rem 0rem;
+}
+body{
+    margin: 0px;
+    padding: 0px !important;
+}
